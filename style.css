@@ -328,10 +328,14 @@ footer {
   padding: 0 50px 0 50px;
   margin-bottom: -7px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
 }
 
 #contacts .container-content {
   padding: 20px 20px 0 20px;
+
 }
 
 #contacts .box-one-third-right {
