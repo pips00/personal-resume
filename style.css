@@ -411,6 +411,13 @@ footer {
     height: 300px;
   }
 
+  #education .box-one-third-left {
+    padding-top: 15px;
+  }
+  #experience .box-one-third-left {
+    padding-top: 15px;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -438,6 +445,7 @@ footer {
   .box-one-third-right {
     flex: 2;
     padding-left: 15px;
+
   }
   .box-full {
     flex:1;
