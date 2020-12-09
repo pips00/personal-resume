@@ -274,6 +274,12 @@ body {
   justify-content: center;
 }
 
+#home b {
+  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(31, 83, 151,0.3);
+}
 
 
 #photo {
@@ -362,6 +368,7 @@ footer {
   color: #000;
 }
 
+
 /*Mobile*/
 
 @media (min-width: 768px) {
@@ -416,6 +423,22 @@ footer {
   }
   #experience .box-one-third-left {
     padding-top: 15px;
+  }
+  #download .box-full {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  button {
+    border-radius: 0%;
+    border: none;
+    background-color: rgb(31, 83, 151);
+    color: #FFF;
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    margin: 5px;
   }
 
 }
