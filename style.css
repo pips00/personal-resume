@@ -152,8 +152,8 @@ a:hover {
 .container-main {
   display: flex;
   flex-direction: column;
-  max-width: 768px;
-  padding: 0 50px 0 50px;
+  max-width: 48rem;
+  padding: 0 3.125rem 0 3.125rem;
 }
 
 .container-separator {
@@ -200,7 +200,7 @@ header {
   justify-content: center;
   background-color: #baa495;
   width: 100%;
-  height: 70px;
+  height: 4.375rem;
   margin: 0;
 }
 
@@ -222,7 +222,7 @@ nav a:hover {
   font-weight: 500;
 }
 
-@media only screens and (max-width: 768px) {
+@media only screens and (max-width: 48rem) {
   nav a {
     /* padding: 0 0.5rem 0 0.5rem; */
   }
@@ -240,13 +240,13 @@ body {
 
 .title-section {
   vertical-align: bottom;
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 /* INTRO */
 
 #home {
-  margin-top: 100px;
+  margin-top: 6.25rem;
 }
 
 #home h1 {
@@ -267,8 +267,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 50px;
-  min-width: 200px;
+  padding-left: 3.125rem;
+  min-width: 12.5rem;
 }
 
 #home .box-fifty-fifty-left {
@@ -288,7 +288,7 @@ body {
 }
 
 #home img {
-  height: 300px;
+  height: 18.75rem;
 }
 
 
@@ -300,8 +300,8 @@ button {
   font-size: 0.875rem;
   color: #000;
   font-weight: 300;
-  padding: 10px;
-  margin: 2px;
+  padding: 0.625rem;
+  margin: 0.125rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -338,12 +338,12 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 200px;
+  min-width: 5.625rem;
 }
 
 .experience .box-one-third-right {
 
-  min-width: 300px;
+  min-width: 18.75rem;
 }
 
 #icon {
@@ -351,19 +351,19 @@ button {
 }
 
 #time {
-  border-left: solid 5px #c8c6c2;
-  padding-left: 10px;
+  border-left: solid 0.3125rem #c8c6c2;
+  padding-left: 0.625rem;
 }
 
 .experience #download_icon {
-  width: 15px;
+  width: 0.9375rem;
 }
 
 #edu-logo {
-  width: 140px;
+  width: 8.75rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 48rem) {
   #time {
     text-align: left;
   }
@@ -379,7 +379,7 @@ button {
 .skills h4 {
   color: #807166;
   text-transform: None;
-  margin-bottom: -10px;
+  margin-bottom: -0.625rem;
 }
 
 .box-one-fourth {
@@ -390,8 +390,8 @@ button {
 
 footer {
   background-color: #baa495;
-  margin: 130px 0 0 0;
-  padding-top: 50px;
+  margin: 8.125rem 0 0 0;
+  padding-top: 3.125rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -409,7 +409,7 @@ i {
 }
 
 #contacts p {
-  margin-bottom: -15px;
+  margin-bottom: -1rem;
 }
 
 #contacts a {
@@ -421,7 +421,7 @@ i {
 
 #credits {
   color: #807166;
-  margin-top: 50px;
+  margin-top: 3.125;
 }
 
 #credits p {
@@ -431,5 +431,5 @@ i {
 #social i{
   color: #ece9e1;
   margin-right: 1rem;
-  margin-top: 50px;
+  margin-top: 3.125;
 }
