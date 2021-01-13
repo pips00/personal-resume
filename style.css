@@ -222,11 +222,7 @@ nav a:hover {
   font-weight: 500;
 }
 
-@media only screens and (max-width: 48rem) {
-  nav a {
-    /* padding: 0 0.5rem 0 0.5rem; */
-  }
-}
+
 
 
 /* BODY */
@@ -309,6 +305,10 @@ button {
     text-align: center;
     padding: 0px;
   }
+
+  #home .box-fifty-fifty-right {
+    padding: 0;
+  }
 }
 
 /* WORK & EDUCATION */
@@ -342,7 +342,6 @@ button {
 }
 
 .experience .box-one-third-right {
-
   min-width: 18.75rem;
 }
 
@@ -366,6 +365,19 @@ button {
 @media only screen and (max-width: 48rem) {
   #time {
     text-align: left;
+  }
+  .experience .container-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .experience .box-one-third-right {
+    flex:1;
+  }
+
+  .experience .box-one-third-left {
+    flex:1;
   }
 
 }
