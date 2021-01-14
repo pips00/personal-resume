@@ -120,6 +120,7 @@ h1 {
 h2 {
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-weight: 600;
+  font-size: 1.1rem;
 }
 
 h3 {
@@ -294,7 +295,7 @@ button {
   border: solid 1px #baa495;
   background: none;
   font-family: 'Nunito', Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #000;
   font-weight: 300;
   padding: 0.625rem;
