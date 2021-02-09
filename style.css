@@ -149,6 +149,22 @@ a:hover {
   text-decoration: underline;
 }
 
+button {
+  border: solid 1px #baa495;
+  background: none;
+  font-family: 'Nunito', Helvetica, sans-serif;
+  font-size: 0.875rem;
+  color: #000;
+  font-weight: 300;
+  padding: 0.625rem;
+  margin: 0.125rem;
+}
+
+button:hover {
+  background-color: #baa495;
+  color: #FFF;
+}
+
 .title-section {
   color: #807166;
   font-size: 1.25rem;
@@ -291,17 +307,7 @@ body {
 
 
 
-button {
-  border: solid 1px #baa495;
-  background: none;
-  font-family: 'Nunito', Helvetica, sans-serif;
-  font-size: 0.875rem;
-  color: #000;
-  font-weight: 300;
-  padding: 0.625rem;
-  margin: 0.125rem;
 
-}
 
 @media only screen and (max-width: 768px) {
 
